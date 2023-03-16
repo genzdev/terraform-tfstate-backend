@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "ifs-dev-multicloud-state-backend/env:/dev/{name}.tfstateenv:dev",
+      "connection": ""
+    },
+    {
+      "type": "blob",
+      "direction": "in",
+      "name": "inputBlob",
+      "path": "ifs-dev-multicloud-state-backend/env:/dev/{name}.tfstateenv:dev",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}

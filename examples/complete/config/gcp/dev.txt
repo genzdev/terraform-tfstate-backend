@@ -1,0 +1,2 @@
+bucket  = "ifs-dev-multicloud-state-backend"
+prefix  = "env:/dev/"

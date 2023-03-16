@@ -1,0 +1,14 @@
+{
+  "name": "multi-cloud-sync-function-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.262.0",
+    "@aws-sdk/credential-providers": "^3.263.0",
+    "@google-cloud/storage": "^6.9.1"
+  }
+}

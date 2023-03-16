@@ -1,0 +1,4 @@
+resource_group_name = "Axer"
+storage_account_name = "axerstandard"
+container_name       = "ifs-dev-multicloud-state-backend"
+key                  = "env:/dev/dev.tfstate"
